@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data >
+        <variable
+            name="content"
+            type="com.example.diagnalprogrammingtest.model.Content" />
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       >
+        <ImageView
+            android:id="@+id/iv_poster_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_gravity="center"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="0dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:paddingBottom="0dp"
+            android:scaleType="fitXY"
+            android:src="@{content.posterImage,default=@drawable/poster1}"
+            />
+        <TextView
+            android:id="@+id/tv_show_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@{content.name}"
+            app:layout_constraintStart_toStartOf="@+id/iv_poster_image"
+            app:layout_constraintEnd_toEndOf="@+id/iv_poster_image"
+            app:layout_constraintTop_toBottomOf="@+id/iv_poster_image"
+            android:layout_marginTop="@dimen/dimen10dp"
+            android:fontFamily="@font/titilliumweb_regular"
+            android:textSize="@dimen/bodytext_16sp"
+            android:singleLine="true"
+            android:paddingBottom="@dimen/dimen20dp"
+            android:textColor="@color/colorWhite"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
+

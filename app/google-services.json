@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "654833280939",
+    "firebase_url": "https://diagnalprogrammingtest-d2c00.firebaseio.com",
+    "project_id": "diagnalprogrammingtest-d2c00",
+    "storage_bucket": "diagnalprogrammingtest-d2c00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654833280939:android:654accfcefc1684e0e54ee",
+        "android_client_info": {
+          "package_name": "com.example.diagnalprogrammingtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654833280939-9ua3ra3f36f7q9kd1e4u3dcnln8udhe8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-k2izT9SsOtkagcHy3kIKYSNOEL_mIU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654833280939-9ua3ra3f36f7q9kd1e4u3dcnln8udhe8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
